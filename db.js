@@ -12,6 +12,6 @@ con.connect(function (err) {
     const sql = "";
     con.query(sql, function (err, result) {
         if (err) throw err;
-        console.log("Done something");
+        console.log(result);
     });
 });
